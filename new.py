@@ -11,7 +11,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 import google.generativeai as genai
 
 # Set the Streamlit page configuration and theme
-st.set_page_config(page_title="SAHAB", layout="wide")
+st.set_page_config(page_title="SATTAM", layout="wide")
 st.header("LAW-MATE (Legal Automated Monitoring and Analytical Technology Engine)")
 
 # Add custom CSS for the black theme
@@ -81,7 +81,7 @@ with st.sidebar:
 
 # Configure Google Generative AI
 genai.configure(api_key=GOOGLE_API_KEY)
-model = genai.GenerativeModel('gemini-1.5-pro')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Hide Streamlit's default menu
 def hide_hamburger_menu():
