@@ -1,25 +1,20 @@
-# SAHAB - Smart Assistant for Handling Advocacy and Briefings
+# LAW - MATE - An Legal AI-Powered Chatbot 
 
-SAHAB is an AI-driven RAG-based multi-modal chatbot designed to enhance user interaction on the Department of Justice (DoJ) website. It provides accurate, context-aware information on legal matters, court procedures, and DoJ services, utilizing advanced algorithms and Language Models (LLMs) to efficiently process and retrieve relevant data.
+LAW MATE is an AI-driven RAG-based multi-modal chatbot designed to enhance user interaction on the Department of Justice (DoJ) website. It provides accurate, context-aware information on legal matters, court procedures, and DoJ services, utilizing advanced algorithms and Language Models (LLMs) to efficiently process and retrieve relevant data.
 
 
-https://github.com/user-attachments/assets/299a69c2-8634-497b-891f-55e9d50deac1
 
 
 
 ## Problem Statement
 
-Developing an AI-based interactive Chatbot or virtual assistant for the Department of Justice's Website.
-- **Problem Statement ID**: 1700
-- **Theme**: Smart Automation
-- **PS Category**: Software
+Developing an AI-based interactive Chatbot or virtual assistant for the Department of Justice's Website(SIH-2024).
 
 ## Features
 
 - **Multilingual Support**: Communicate in various Indian languages including English, Hindi, Bengali, and more.
 - **AI-Powered Responses**: Utilizes advanced language models to provide accurate legal information.
 - **User-Friendly Interface**: Clean and intuitive Streamlit-based UI for easy interaction.
-- **Offline Mode**: Option to switch between online and offline modes for flexibility.
 - **Conversation Memory**: Maintains context through conversation history.
 - **Legal Text Analysis**: Processes and retrieves information from legal documents.
 - **Adaptive Learning**: Continuously updates and expands its knowledge base.
@@ -31,45 +26,15 @@ Developing an AI-based interactive Chatbot or virtual assistant for the Departme
 - Streamlines the process of finding essential legal details, improving the accessibility of information for citizens.
 - Reduces dependency on manual searches and costly legal advice by offering initial, reliable guidance.
 
-## Architecture and Data Flow
 
-[Include an image or description of the project's architecture here]
 
 ## Technologies Used
 
 - **Programming Language**: Python
 - **Frameworks**: Streamlit, LangChain
-- **Libraries**: FAISS, GoogleTranslator, HuggingFace Embeddings, Together, Ollama
+- **Libraries**: FAISS, GoogleTranslator, HuggingFace Embeddings, Ollama
 - **Embeddings**: law-ai/InLegalBERT
 
-## Demo
-
-Try SAHAB live: [SAHAB Demo](https://sahab-demo.streamlit.app)
-
-## Installation
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/Sahil-Bhoite/SAHAB.git
-   cd SAHAB
-   ```
-
-2. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. Set up your API keys in `config.py`.
-
-## Usage
-
-Run the Streamlit app:
-
-```
-streamlit run new.py
-```
-
-Navigate to the provided local URL in your web browser to interact with SAHAB.
 
 ## Challenges and Solutions
 
@@ -99,26 +64,11 @@ Legal queries require precise and context-aware answers. Incorrect or vague resp
 
 ## Future Enhancements
 
-[Add any planned future enhancements or features here]
+Offline mode for everyone
 
-## Contributing
 
-Contributions to SAHAB are welcome! Please feel free to submit a Pull Request.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Sahil-Bhoite/SAHAB/blob/main/LICENSE) file for details.
-
-## Contact
-
-Sahil Bhoite - [LinkedIn](https://www.linkedin.com/in/sahil-bhoite/)
-
-Project Link: [https://github.com/Sahil-Bhoite/SAHAB](https://github.com/Sahil-Bhoite/SAHAB)
-
-## Acknowledgements
-
-- Thanks to the Langchain community for their excellent tools and documentation.
-- Gratitude to the open-source community for various libraries used in this project.
 
 ## References
 
